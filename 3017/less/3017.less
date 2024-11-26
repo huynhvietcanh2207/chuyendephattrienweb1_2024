@@ -1,0 +1,149 @@
+.type-3017 {
+
+    .section-header {
+        display: flex; 
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center; 
+        background-color: #343b83;
+        color: white;
+        text-align: center;
+        padding: 40px 0;
+        height: 334px;
+        font-family: sans-serif;
+    }
+
+    .section-main{
+        max-width: 1280px;
+        height: 1077px;
+        padding: 80px 0 112px 0;
+    }
+
+    .section-header h1 {
+        font-size: 48px;
+        font-weight: bold;
+    }
+
+    .section-header p {
+        font-size: 25px;
+        margin-top: 5px;
+    }
+
+    .article {
+        border-radius: 0.5rem;
+        overflow: hidden;
+        position: relative; 
+    }
+
+    .article img {
+        width: 403.3px;
+        height: 266px;
+        object-fit: cover;
+    }
+
+    .tag {
+        background-color: #68C419;
+        color: white;
+        font-size: 12px;
+        margin: 21px;
+        font-weight: bold;
+        padding: 7.2px 14.4px;
+        border-radius: 1rem;
+        position: absolute; 
+        right: 0px; 
+        top: 0px;
+        z-index: 10; 
+        font-family: sans-serif;
+    }
+
+    .article h2 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-top: 4rem;
+        font-family: sans-serif;
+        color: #5B5C5E;
+    }
+
+    .article p {
+        color: #6c757d;
+        margin-top: 2rem;
+        font-family: sans-serif;
+        color: #5B5C5E;
+        font-size: 16px;
+    }
+
+    .article-footer {
+        color: #6c757d;
+        font-size: 13px;
+        margin-top: 1rem;
+    }
+
+    .test-content {
+        padding: 0;
+       
+    }
+
+    @media (max-width: 768px) {
+        .section-header {
+            height: auto;
+            padding: 20px 0;
+        }
+
+        .section-header h1 {
+            font-size: 32px;
+        }
+
+        .section-header p {
+            font-size: 18px; 
+        }
+
+        .section-main {
+            padding: 40px 0; 
+            height: auto; 
+        }
+
+        .article img {
+            width: 100%; 
+            height: auto; 
+        }
+
+        .article h2 {
+            font-size: 18px;
+        }
+
+        .tag {
+            font-size: 0.65rem; 
+            padding: 5px 10px; 
+            margin: 10px; 
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .section-header {
+            height: 280px;
+            padding: 30px 0;
+        }
+
+        .section-header h1 {
+            font-size: 40px; 
+        }
+
+        .section-header p {
+            font-size: 22px; 
+        }
+
+        .section-main {
+            padding: 60px 0;
+            height: auto; 
+        }
+
+        .article img {
+            width: 80%; 
+            height: auto;
+        }
+
+        .article h2 {
+            font-size: 18px; 
+        }
+    }
+}
